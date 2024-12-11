@@ -29,6 +29,7 @@ inventory/*
 !inventory/local
 !inventory/sample
 inventory/*/artifacts/
+!inventory/mycluster
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -120,3 +121,5 @@ tmp.md
 # Ansible collection files
 kubernetes_sigs-kubespray*tar.gz
 ansible_collections
+
+/kubespray-venv
